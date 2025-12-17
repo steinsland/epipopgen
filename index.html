@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EpiPopGen</title>
+    <base href="/epipopgen/" />
+    <link href="_framework/dotnet.5kc1z6ci53.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-K++nnYXdopzCTr9utY41ZmpZonAXAQe0oi9HSDbbEkg=" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link href="EpiPopGen.styles.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" sizes="32x32" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.5kc1z6ci53.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.9eeclxj7xx.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.o0qy896u8v.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
+    "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
+    "./_framework/dotnet.5kc1z6ci53.js": "sha256-K++nnYXdopzCTr9utY41ZmpZonAXAQe0oi9HSDbbEkg=",
+    "./_framework/dotnet.js": "sha256-K++nnYXdopzCTr9utY41ZmpZonAXAQe0oi9HSDbbEkg=",
+    "./_framework/dotnet.native.9eeclxj7xx.js": "sha256-H+MGwR21ISiA8JYB3KxTjjTM9ng3jZqpqPShlhVs5pg=",
+    "./_framework/dotnet.native.js": "sha256-H+MGwR21ISiA8JYB3KxTjjTM9ng3jZqpqPShlhVs5pg=",
+    "./_framework/dotnet.runtime.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw=",
+    "./_framework/dotnet.runtime.o0qy896u8v.js": "sha256-yJvgPPUUvavYVmu9VD/fYtMcoEnLVaB0Cr7JAE29btw="
+  }
+}</script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.66stpp682q.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });</script>
+</body>
+
+</html>
